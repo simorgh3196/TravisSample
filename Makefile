@@ -1,6 +1,7 @@
 build:
 	@echo "---- run build ----"
-	@echo "build1"
+	@echo "fix1 build"
 
 deploy:
 	@echo "---- run deploy ----"
+	@echo "fix1 release"
