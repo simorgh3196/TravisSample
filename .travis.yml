@@ -1,0 +1,13 @@
+langage: c
+
+jobs:
+  include:
+
+    - stage: build
+      script:
+        - make build
+
+    - stage: deploy
+      if: branch = master
+      script:
+        - make deploy
