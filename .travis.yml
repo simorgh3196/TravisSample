@@ -8,6 +8,6 @@ jobs:
         - make build
 
     - stage: deploy
-      if: branch = master
+      if: branch = master AND type = push
       script:
         - make deploy
